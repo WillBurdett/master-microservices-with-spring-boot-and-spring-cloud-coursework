@@ -3,6 +3,7 @@ package com.in28minutes.rest.webservices.restfulwebservices.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import javax.validation.constraints.Size;
 import java.util.Objects;
 
 @Entity
@@ -11,6 +12,7 @@ public class Post {
     @Id
     @GeneratedValue
     private Integer id;
+    @Size(min = 10)
     private String description;
 
     // we don't want to fetch user details with the post (eager)
