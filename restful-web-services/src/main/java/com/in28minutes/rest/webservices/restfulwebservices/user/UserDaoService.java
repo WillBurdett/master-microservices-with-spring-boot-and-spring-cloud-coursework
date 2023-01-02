@@ -1,5 +1,6 @@
-package com.in28minutes.rest.webservices.restfulwebservices.User;
+package com.in28minutes.rest.webservices.restfulwebservices.user;
 
+import com.in28minutes.rest.webservices.restfulwebservices.models.User;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;

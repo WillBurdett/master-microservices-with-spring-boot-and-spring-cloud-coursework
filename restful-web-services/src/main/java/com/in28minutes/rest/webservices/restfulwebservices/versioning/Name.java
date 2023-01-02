@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfulwebservices.Versioning;
+package com.in28minutes.rest.webservices.restfulwebservices.versioning;
 
 import java.util.Objects;
 

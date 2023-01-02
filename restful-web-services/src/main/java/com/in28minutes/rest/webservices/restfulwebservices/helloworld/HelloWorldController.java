@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfulwebservices.HelloWorld;
+package com.in28minutes.rest.webservices.restfulwebservices.helloworld;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;

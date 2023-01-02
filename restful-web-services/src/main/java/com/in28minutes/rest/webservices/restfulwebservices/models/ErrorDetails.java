@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfulwebservices.exceptions;
+package com.in28minutes.rest.webservices.restfulwebservices.models;
 
 import java.time.LocalDateTime;
 

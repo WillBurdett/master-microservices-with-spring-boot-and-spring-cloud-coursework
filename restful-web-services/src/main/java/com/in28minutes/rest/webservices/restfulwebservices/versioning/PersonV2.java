@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfulwebservices.Versioning;
+package com.in28minutes.rest.webservices.restfulwebservices.versioning;
 
 public class PersonV2 {
     private Name name;

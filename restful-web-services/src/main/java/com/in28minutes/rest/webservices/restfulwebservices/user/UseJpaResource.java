@@ -1,5 +1,8 @@
-package com.in28minutes.rest.webservices.restfulwebservices.User;
+package com.in28minutes.rest.webservices.restfulwebservices.user;
 
+import com.in28minutes.rest.webservices.restfulwebservices.exceptions.UserNotFoundException;
+import com.in28minutes.rest.webservices.restfulwebservices.models.Post;
+import com.in28minutes.rest.webservices.restfulwebservices.models.User;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.http.ResponseEntity;
