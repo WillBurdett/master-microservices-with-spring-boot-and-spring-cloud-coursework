@@ -9,6 +9,9 @@ public class CurrencyExchange {
     private String to;
     private BigDecimal conversionMultiple;
 
+    // when load balancing, we want to know what instance is in use, i.e. which port the response is sent from
+    private String environment;
+
     public CurrencyExchange() {
     }
 
@@ -49,6 +52,14 @@ public class CurrencyExchange {
 
     public void setConversionMultiple(BigDecimal conversionMultiple) {
         this.conversionMultiple = conversionMultiple;
+    }
+
+    public String getEnvironment() {
+        return environment;
+    }
+
+    public void setEnvironment(String environment) {
+        this.environment = environment;
     }
 
     @Override
