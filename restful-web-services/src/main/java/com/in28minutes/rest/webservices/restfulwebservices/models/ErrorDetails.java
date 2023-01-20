@@ -1,6 +1,7 @@
 package com.in28minutes.rest.webservices.restfulwebservices.models;
 
 import java.time.LocalDateTime;
+import java.util.Objects;
 
 public class ErrorDetails {
     private LocalDateTime timestamp;
@@ -20,12 +21,37 @@ public class ErrorDetails {
         return timestamp;
     }
 
+    public void setTimestamp(LocalDateTime timestamp) {
+        this.timestamp = timestamp;
+    }
+
     public String getMessage() {
         return message;
     }
 
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
     public String getDetails() {
         return details;
+    }
+
+    public void setDetails(String details) {
+        this.details = details;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ErrorDetails that = (ErrorDetails) o;
+        return Objects.equals(timestamp, that.timestamp) && Objects.equals(message, that.message) && Objects.equals(details, that.details);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(timestamp, message, details);
     }
 
     @Override
