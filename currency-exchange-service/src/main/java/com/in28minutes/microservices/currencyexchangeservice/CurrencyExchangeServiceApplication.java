@@ -12,8 +12,11 @@ public class CurrencyExchangeServiceApplication {
 
 }
 
-// Currency Exchange Service
-//http://localhost:8000/currency-exchange/from/USD/to/INR
+// Currency Exchange Service:
+// http://localhost:8000/currency-exchange/from/USD/to/INR
+
+// Using API gateway:
+// http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/from/USD/to/INR
 //
 //{
 //		"id":10001,

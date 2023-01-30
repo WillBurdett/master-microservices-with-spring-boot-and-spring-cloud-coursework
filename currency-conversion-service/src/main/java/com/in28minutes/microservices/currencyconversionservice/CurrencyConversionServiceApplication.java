@@ -16,4 +16,8 @@ public class CurrencyConversionServiceApplication {
 	// Currency Conversion Service:
 	// http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
 	// http://localhost:8100/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+	// Using API gateway:
+	// http://localhost:8765/CURRENCY-CONVERSION/currency-conversion/from/USD/to/INR/quantity/10
+	// http://localhost:8765/CURRENCY-CONVERSION/currency-conversion-feign/from/USD/to/INR/quantity/10
 }
